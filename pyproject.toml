@@ -25,6 +25,13 @@ classifiers = [
     "Topic :: Software Development :: Build Tools",
     "Topic :: Utilities",
     "Typing :: Typed",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
 ]
 
 packages = [{include = "sdk_erator", from = "src"}]
@@ -35,7 +42,8 @@ sdk_erator = "sdk_erator.main:cli"
 
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.7"
+
 pydantic = "^2.3.0"
 datamodel-code-generator = "^0.21.5"
 click = "^8.1.7"
